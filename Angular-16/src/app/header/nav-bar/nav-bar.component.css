@@ -1,0 +1,50 @@
+/* Styles for the navigation bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 111, 0.8);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(1px);
+    z-index: +1;
+    height: auto;
+  }
+  
+  /* Navigation bar links */
+  .navbar li {
+    display: inline;
+  }
+  
+  .navbar .logo img {
+    height: 55px;
+    width: 50px;
+  }
+  
+  .navbar li:first-child {
+    margin-right: auto;
+    position: relative;
+    left: 20px;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 120%;
+    text-decoration: none;
+  }
+  
+  /* On hover, the links will change color */
+  .navbar li a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
